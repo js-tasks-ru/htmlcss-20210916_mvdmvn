@@ -1,0 +1,95 @@
+/* CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.header__title {
+  background-color: #368B85;
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  padding: 8px 0;
+}
+.header__nav {
+  background-color: #5F939A;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.nav__item {
+  color: #ffffff;
+  font-size: 24px;
+  transition: .3s;
+}
+
+.nav__item:hover {
+  color: #22577A;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.main {
+  background-color: #57CC99;
+  padding: 16px;
+}
+
+.main__article {
+  background-color: #22577A;
+  padding: 14px;
+}
+
+.main__article:first-child {
+  margin-bottom: 24px;
+}
+
+.article__title {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.main__article .article__list {
+  padding: 16px 24px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.article__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer {
+  background-color: #80ED99;
+  padding: 16px;
+}
+
+.footer__title {
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
