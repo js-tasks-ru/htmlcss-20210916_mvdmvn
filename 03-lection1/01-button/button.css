@@ -15,49 +15,51 @@
     background 200ms ease-in-out;
 }
 
-.button:not(:last-child) {
+.button__primary:not(:last-child),
+.button__secondary:not(:last-child),
+.button__alternate:not(:last-child) {
   margin-bottom: 24px;
 }
 
-.primary__item {
+.button__primary {
   background-color: var(--primary);
 }
 
-.primary__item:hover {
+.button__primary:hover {
   background-color: var(--primary-hover);
 }
 
-.primary__item:disabled {
+.button__primary:disabled {
   background-color: var(--primary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.secondary__item {
+.button__secondary {
   background-color: var(--secondary);
 }
 
-.secondary__item:hover {
+.button__secondary:hover {
   background-color: var(--secondary-hover);
 }
 
-.secondary__item:disabled {
+.button__secondary:disabled {
   background-color: var(--secondary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.alternate__item {
+.button__alternate {
   background-color: transparent;
   border: 1px solid var(--grey-3);
   color: var(--grey-4);
 }
 
-.alternate__item:hover {
+.button__alternate:hover {
   border: 1px solid var(--black);
 }
 
-.alternate__item:disabled {
+.button__alternate:disabled {
   border: 1px solid var(--black);
   opacity: 0.5;
   cursor: not-allowed;
