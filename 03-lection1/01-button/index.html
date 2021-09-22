@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <!-- Страница с кнопкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./button.css">
-    </head>
-    <body>
-
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="./button.css" />
+    <style>
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        max-width: 620px;
+        width: 100%;
+        margin: 50px auto 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="buttons">
+      <div class="primary">
+        <button class="button button_primary">Button</button>
+        <button class="button button_primary" disabled="disabled">
+          Button Disabled
+        </button>
+      </div>
+      <div class="secondary">
+        <button class="button button_secondary">Button</button>
+        <button class="button button_secondary" disabled="disabled">
+          Button Disabled
+        </button>
+      </div>
+      <div class="alternate">
+        <button class="button button_alternate">Button</button>
+        <button class="button button_alternate" disabled="disabled">
+          Button Disabled
+        </button>
+      </div>
+    </section>
+  </body>
 </html>
