@@ -1,0 +1,19 @@
+.footer__title {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 48px;
+  color: var(--black);
+  text-align: center;
+  padding-top: 71px;
+  margin-bottom: 32px;
+}
+
+.footer__description {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto 136px auto;
+}
