@@ -5,24 +5,33 @@
     <link rel="stylesheet" href="../../assets/css/main.css" />
     <link rel="stylesheet" href="../../assets/css/normalize.css" />
     <link rel="stylesheet" href="./button.css" />
+    <style>
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        max-width: 620px;
+        width: 100%;
+        margin: 50px auto 0 auto;
+      }
+    </style>
   </head>
   <body>
     <section class="buttons">
       <div class="primary">
         <button class="button primary__item">Button</button>
-        <button class="button primary__item primary__item_disabled">
+        <button class="button primary__item" disabled="disabled">
           Button Disabled
         </button>
       </div>
       <div class="secondary">
         <button class="button secondary__item">Button</button>
-        <button class="button secondary__item secondary__item_disabled">
+        <button class="button secondary__item" disabled="disabled">
           Button Disabled
         </button>
       </div>
       <div class="alternate">
         <button class="button alternate__item">Button</button>
-        <button class="button alternate__item alternate__item_disabled">
+        <button class="button alternate__item" disabled="disabled">
           Button Disabled
         </button>
       </div>

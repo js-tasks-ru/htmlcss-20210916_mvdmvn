@@ -1,13 +1,4 @@
 /* Стилизация кнопки */
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  max-width: 620px;
-  width: 100%;
-  margin: 50px auto 0 auto;
-}
-
 .button {
   min-width: 120px;
   max-width: 190px;
@@ -17,7 +8,7 @@
   font-size: 16px;
   line-height: 18px;
   text-align: center;
-  padding: 15px 0;
+  padding: 15px;
   border: none;
   cursor: pointer;
   transition: opacity 200ms ease-in-out, border 200ms ease-in-out,
@@ -28,14 +19,6 @@
   margin-bottom: 24px;
 }
 
-.primary,
-.secondary,
-.alternate {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .primary__item {
   background-color: var(--primary);
 }
@@ -44,14 +27,10 @@
   background-color: var(--primary-hover);
 }
 
-.primary__item_disabled {
+.primary__item:disabled {
   background-color: var(--primary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.primary__item_disabled:hover {
-  background-color: var(--primary-disabled);
 }
 
 .secondary__item {
@@ -62,14 +41,10 @@
   background-color: var(--secondary-hover);
 }
 
-.secondary__item_disabled {
+.secondary__item:disabled {
   background-color: var(--secondary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.secondary__item_disabled:hover {
-  background-color: var(--secondary-disabled);
 }
 
 .alternate__item {
@@ -82,11 +57,8 @@
   border: 1px solid var(--black);
 }
 
-.alternate__item_disabled {
+.alternate__item:disabled {
+  border: 1px solid var(--black);
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.alternate__item_disabled:hover {
-  border: 1px solid var(--grey-3);
 }
