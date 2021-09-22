@@ -33,6 +33,7 @@
   background-color: var(--primary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .button__secondary {
@@ -47,6 +48,7 @@
   background-color: var(--secondary-disabled);
   opacity: 0.5;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .button__alternate {
@@ -63,4 +65,5 @@
   border: 1px solid var(--black);
   opacity: 0.5;
   cursor: not-allowed;
+  pointer-events: none;
 }
