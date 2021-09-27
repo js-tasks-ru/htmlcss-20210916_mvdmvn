@@ -1,10 +1,8 @@
-p {
-  margin: 0;
+.histogram_card {
+  margin: 50px auto 0 auto;
 }
 
 .histogram {
-  margin: 50px auto 0 auto;
-  height: 150px;
   max-width: 354px;
   width: 100%;
   border: 1px solid var(--grey-3);
@@ -15,12 +13,12 @@ p {
   justify-content: space-between;
 }
 
-.head {
+.histogram__head {
   display: flex;
   justify-content: space-between;
 }
 
-.order-count__title {
+.histogram__order-count-title {
   font-size: 16px;
   line-height: 24px;
   color: var(--black);
@@ -28,13 +26,13 @@ p {
   opacity: 0.8;
 }
 
-.order-count__amount {
+.histogram__order-count-amount {
   font-size: 20px;
   line-height: 26px;
   color: var(--black);
 }
 
-.link__item {
+.histogram__link {
   font-size: 16px;
   line-height: 24px;
   color: var(--blue);
@@ -42,18 +40,18 @@ p {
   text-decoration: none;
 }
 
-.link__item:hover {
+.histogram__link:hover {
   color: var(--purple);
 }
 
-.content {
+.histogram__chart {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   height: 50px;
 }
 
-.content__item {
+.histogram__chart-item {
   background-color: var(--blue);
   flex: 1 1 auto;
   margin: 0 1px;
