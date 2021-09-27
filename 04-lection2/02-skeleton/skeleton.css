@@ -1,22 +1,22 @@
+.card__skeleton {
+  margin: 50px auto 0 auto;
+}
+
 .skeleton {
   max-width: 580px;
   width: 100%;
-  margin: 50px auto 0 auto;
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   padding: 24px 24px 32px 24px;
 }
 
-.head {
+.skeleton__head {
   display: flex;
   align-items: center;
-}
-
-.skeleton__head {
   margin-bottom: 24px;
 }
 
-.avatar {
+.skeleton__avatar {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -27,7 +27,7 @@
   margin-right: 16px;
 }
 
-.skeleton-row {
+.skeleton-skeleton__row {
   background: linear-gradient(
     92.51deg,
     #dde2e5 6.44%,
@@ -39,20 +39,20 @@
   height: 20px;
 }
 
-.description {
+.skeleton__description {
   max-width: 260px;
   width: 100%;
 }
 
-.description__name {
+.skeleton__row-name {
   width: 70%;
   margin-bottom: 8px;
 }
 
-.description__desc {
+.skeleton__row-desc {
   width: 100%;
 }
 
-.content__line:not(:last-child) {
+.skeleton__row-line:not(:last-child) {
   margin-bottom: 8px;
 }
