@@ -49,6 +49,7 @@
   align-items: baseline;
   justify-content: space-between;
   height: 50px;
+  margin-top: 40px;
 }
 
 .histogram__chart-item {
