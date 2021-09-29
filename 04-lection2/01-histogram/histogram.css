@@ -1,0 +1,59 @@
+.histogram_card {
+  margin: 50px auto 0 auto;
+}
+
+.histogram {
+  max-width: 354px;
+  width: 100%;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 16px 24px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.histogram__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.histogram__order-count-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  margin-bottom: 6px;
+  opacity: 0.8;
+}
+
+.histogram__order-count-amount {
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--black);
+}
+
+.histogram__link {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--blue);
+  transition: 0.3s color ease-in-out;
+  text-decoration: none;
+}
+
+.histogram__link:hover {
+  color: var(--purple);
+}
+
+.histogram__chart {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.histogram__chart-item {
+  background-color: var(--blue);
+  flex: 1 1 auto;
+  margin: 0 1px;
+}
