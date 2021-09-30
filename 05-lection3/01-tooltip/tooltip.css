@@ -3,8 +3,6 @@
   display: inline-block;
   box-sizing: border-box;
   text-align: center;
-  display: inline-block;
-  width: 100%;
 }
 
 .tooltip__preview {
@@ -28,7 +26,7 @@
   height: 0;
 
   border-style: solid;
-  border-width: 12px 12.5px 0 12.5px;
+  border-width: 12px 12px 0 12px;
   border-color: var(--primary-disabled) transparent transparent transparent;
 
   position: absolute;
@@ -41,6 +39,6 @@
   text-align: center;
 }
 
-.tooltip__trigger svg:hover + .tooltip__preview {
+.tooltip__trigger:hover + .tooltip__preview {
   display: block;
 }
