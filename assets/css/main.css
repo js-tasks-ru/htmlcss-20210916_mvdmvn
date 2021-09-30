@@ -23,6 +23,9 @@
 
   --primary-disabled: #4263eb;
   --secondary-disabled: #7048e8;
+
+  --grey-text: #90a0b7;
+  --blue-dark: #334d6e;
 }
 
 * {

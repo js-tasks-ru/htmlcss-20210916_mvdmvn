@@ -38,18 +38,18 @@
 }
 
 .calendar__item_day {
-  color: #90a0b7;
+  color: var(--grey-text);
 }
 
 .calendar__item_number {
-  color: #334d6e;
+  color: var(--blue-dark);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
 .calendar__item_number:hover {
   background-color: rgba(160, 177, 245, 0.2);
-  color: #334d6e;
+  color: var(--blue-dark);
 }
 
 .calendar__item_selected {
@@ -59,5 +59,5 @@
 
 .calendar__item_range {
   background-color: rgba(160, 177, 245, 0.2);
-  color: #334d6e;
+  color: var(--blue-dark);
 }
